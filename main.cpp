@@ -24,6 +24,14 @@ void calparalelo (float R1, float R2)
   cout << "O valor da Resistência em serie =" << Resistparalelo << endl;
 }
 
+void correntetotal (float R1, float R2, float fonteV1)
+{
+  float Itotal = 0.0;
+  Itotal = (fonteV1)/(R1=R2);
+
+  cout << "A corrente total do circuito =" << Itotal << endl;
+}
+
 int main() {
 
 }
