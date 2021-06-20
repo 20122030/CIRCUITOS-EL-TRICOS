@@ -32,6 +32,19 @@ void correntetotal (float R1, float R2, float fonteV1)
   cout << "A corrente total do circuito =" << Itotal << endl;
 }
 
+
+void calcpotencia (float R1, float R2, float fonteV1)
+{
+  float potfonte = 0.0;
+  float Requivalente = 0.0;
+  Requivalente = R1+R2;
+  potfonte = (pow(fonteV1,2))/(Requivalente);
+
+  cout << " A Potencia da fonte = " << potfonte << endl;
+  
+}
+#endif
+
 int main() {
 
 }
