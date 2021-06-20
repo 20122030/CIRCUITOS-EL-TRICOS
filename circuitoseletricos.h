@@ -1,4 +1,4 @@
-#include <iostream>
+#include <cmatch>
 using namespace std;
 #ifndef circuitoseletricos_H
 #define circuitoseletricos_H
@@ -6,7 +6,7 @@ using namespace std;
 struct tCircuito
 {
   int valorR1, valorR2, valorfonteV1;
-}
+};
 
 void calcserie(float R1, float R2)
 {
