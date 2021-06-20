@@ -8,7 +8,11 @@ struct tCircuito
   int valorR1, valorR2, valorfonteV1;
 }
 
+void calcserie()
+float R1, R2, Resistserie;
+Resitserie = R1 + R2;
 
+cout << "O valor da Resistência em serie =" << Resistserie << endl;
 
 
 
